@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "policyId":{
+            "value": "cb5e1e90-7c33-491c-a15b-24885c915752"
+            // Enable Azure Cosmos DB throughput policy
+            // No roles, two policies
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "enforcementMode": {
+            "value": "DoNotEnforce"
+        },
+        "parameters": {
+            "value": {
+                "throughputMax": {
+                    "value": 42
+                }
+            }
+        }
+    }
+  }

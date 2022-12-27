@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "policyId":{
+            "value": "17b3de92-f710-4cf4-aa55-0e7859f1ed7b"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "extraDescription": {
+            "value": "normal with MSI role assignments"
+        }
+    }
+  }

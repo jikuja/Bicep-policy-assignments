@@ -1,0 +1,21 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "policyId":{
+            "value": "59e9c3eb-d8df-473b-8059-23fd38ddd0f0"
+            // [Preview]: Enable Azure Monitor for Hybrid VMs with AMA
+            // three roles. Five policies
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "parameters": {
+            "value": {
+                "logAnalyticsWorkspace": {
+                    "value": "x"
+                }
+            }
+        }
+    }
+  }

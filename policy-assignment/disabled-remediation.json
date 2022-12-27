@@ -1,0 +1,28 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "policyId":{
+            "value": "ac673a9a-f77d-4846-b2d8-a57f8e1c01d4"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "parameters": {
+            "value": {
+                "effect": {
+                    "value": "Disabled"
+                },
+                "privateDnsZoneId": {
+                    "value": "x"
+                }
+            }
+        },
+        "disableRoleAssignment": {
+            "value": true
+        },
+        "extraDescription": {
+            "value": "disableRoleAssignment: true, effect: Disabled"
+        }
+    }
+  }

@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "policyId":{
+            "value": "1d478a74-21ba-4b9f-9d8f-8e6fced0eec5"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "enforcementMode": {
+            "value": "DoNotEnforce"
+        },
+        "extraDescription": {
+            "value": "No DINE in policy"
+        }
+    }
+  }

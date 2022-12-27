@@ -1,0 +1,14 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "policyId":{
+            "value": "39a366e6-fdde-4f41-bbf8-3757f46d1611"
+            // [Preview]: Configure Azure Defender for SQL agents on virtual machines
+            // one role. One policy used twice
+        },
+        "location": {
+            "value": "westeurope"
+        }
+    }
+  }

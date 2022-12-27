@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "policyId":{
+            "value": "118f04da-0375-44d1-84e3-0fd9e1849403"
+            // Configure Linux machines to run Azure Monitor Agent and associate them to a Data Collection Rule
+            // 4 policy, 4 roles
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "parameters": {
+            "value": {
+                "effect": {
+                    "value": "Disabled"
+                },
+                "dcrResourceId": {
+                    "value": "x"
+                }
+            }
+        }
+    }
+  }
